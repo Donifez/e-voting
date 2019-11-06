@@ -1,22 +1,58 @@
-.App {
+
+
+.login-container{
+  height: 100vh;
+background-image: url("/images/voting-added-this.jpeg");
+background-size: cover;
+}
+img{
+  height: 100vh;
+  width:100vw;
+  z-index: -3;
+}
+
+.header,h3{
+text-align: center;
+color:rgb(10, 233, 122);
+
+}
+form{
+  margin:0 auto;
+  margin-top: 10%;
+border: solid rgb(15, 15, 15) 3px;
+width: 50%;
+height: 50vh;
+}
+h4{
+  color:rgb(26, 223, 8);
+  margin-left: 10%;
+}
+#label{
+position:relative;
+top:90px;
+font-size: 24px;
+margin-left: 230px;
+  color:red;
+}
+.email{
+  margin-top:30px;
+margin-left: 70px;
+  width:80%;
+  border-radius: 20px;
+  height: 8%;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
+.submit{
+  height: 10%;
+  color:red;
+  font-size:20px;
+  background:rgb(26, 223, 8);
+  margin-top:20px;
+  margin-left: 70px;
+  width:80%;
+  border-radius: 20px;
+  border:rgb(26, 223, 8);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
+.submit:hover{
+  background:rgb(65, 180, 54);
 }
