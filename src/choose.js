@@ -1,5 +1,5 @@
 import React from   "react";
-
+import "./choose.css";
 class choose extends React.Component {
     constructor(props) {
         super(props);
@@ -9,7 +9,7 @@ class choose extends React.Component {
         const {party, Candidate, Position}=this.props;
         return (
             <div className="choose-container">
-             <h1>{party}   </h1>
+             <h1>{party}<i class="fas fa-arrow-alt-circle-down"></i></h1>
              <ul>
              <li>{Candidate}</li>
              <li>{Position}</li>

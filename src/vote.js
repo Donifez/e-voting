@@ -10,10 +10,12 @@ class vote extends Component {
     render() {
         return (
             <React.Fragment>
-             <Choose party="APC" Candidate="Peter Obi" Position="Presidential Candidate"/>
+                <div  className="vote-body">
+             <Choose party="APC" Candidate="Peter Obi" Position="Presidential Candidate" />
+            
              <Choose party="PDP" Candidate="Ahmed Tinubu" Position="Presidential Candidate"/>
              <Choose party="APGA" Candidate="Ezenwaka Ifeanyi" Position="Presidential Candidate"/>
-
+             </div>
             </React.Fragment>
         );
     }
