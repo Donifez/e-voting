@@ -1,12 +1,12 @@
 import React from 'react';
-import Login from "./login";
-import Vote from "./vote";
+import Voter from "./voter";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-   <Vote/>
+     <Voter className="apc" name="APC" id="0"/>
+     <Voter className="pdp" name="PDP" id="0"/>
     </div>
   );
 }
